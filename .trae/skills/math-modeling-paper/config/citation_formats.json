@@ -1,0 +1,102 @@
+{
+  "formats": {
+    "gbt7714": {
+      "name": "GB/T 7714-2015",
+      "name_en": "Chinese Standard for References",
+      "description": "中国国家标准 GB/T 7714-2015 文后参考文献著录规则",
+      "templates": {
+        "journal_article": "[序号] 作者1, 作者2, 作者3. 题名[J]. 刊名, 年, 卷(期): 起止页码.",
+        "journal_article_example": "[1] 张三, 李四, 王五. 基于优化方法的资源配置研究[J]. 系统工程学报, 2020, 35(3): 321-335.",
+        "book": "[序号] 作者. 书名[M]. 版次. 出版地: 出版者, 出版年: 起止页码.",
+        "book_example": "[2] 李明. 数学建模方法与应用[M]. 第2版. 北京: 高等教育出版社, 2019: 45-67.",
+        "book_series": "[序号] 作者. 书名[M]//主编. 系列丛书名. 卷. 版次. 出版地: 出版者, 出版年: 起止页码.",
+        "conference": "[序号] 作者. 题名[C]//会议名称. 会议地点, 会议日期. 出版地: 出版者, 出版年: 起止页码.",
+        "conference_example": "[3] 张华. 智能优化算法在路径规划中的应用[C]//中国系统工程学会. 系统工程年会论文集. 上海, 2020-10-15. 北京: 科学出版社, 2020: 123-130.",
+        "thesis": "[序号] 作者. 题名[D]. 保存地点: 保存单位, 年份.",
+        "thesis_example": "[4] 王强. 机器学习在时间序列预测中的应用研究[D]. 北京: 清华大学, 2021.",
+        "patent": "[序号] 专利申请者. 专利题名: 专利国别, 专利号[P]. 公告日期.",
+        "patent_example": "[5] 刘洋. 一种基于神经网络的预测方法: 中国, CN202010123456.7[P]. 2020-03-15.",
+        "standard": "[序号] 主要责任者. 标准编号 标准名称[S]. 出版地: 出版者, 出版年.",
+        "standard_example": "[6] 中国国家标准管理委员会. GB/T 7714-2015 信息与文献 参考文献著录规则[S]. 北京: 中国标准出版社, 2015.",
+        "online_resource": "[序号] 作者. 题名[EB/OL]. (发表日期)[Accessed日期]. 获取和访问路径.",
+        "online_resource_example": "[7] 陈林. 数据挖掘技术在医疗领域的应用[EB/OL]. (2020-05-20)[2021-03-15]. https://example.com/article/123."
+      }
+    },
+    "apa": {
+      "name": "APA",
+      "name_en": "American Psychological Association",
+      "description": "美国心理学会参考文献格式",
+      "templates": {
+        "journal_article": "Author, A. A., & Author, B. B. (Year). Title of article. Title of Periodical, volume(issue), pages.",
+        "journal_article_example": "Zhang, S., Li, S., & Wang, W. (2020). Resource allocation based on optimization methods. Journal of Systems Engineering, 35(3), 321-335.",
+        "book": "Author, A. A. (Year). Title of work. Publisher.",
+        "book_example": "Li, M. (2019). Mathematical modeling methods and applications (2nd ed.). Higher Education Press.",
+        "conference": "Author, A. A. (Year). Title of paper. In Name of Conference (Ed.), Title of compiled proceedings (pp. pages). Publisher.",
+        "conference_example": "Zhang, H. (2020). Application of intelligent optimization algorithms in path planning. In Systems Engineering Society of China (Ed.), Proceedings of the Systems Engineering Annual Conference (pp. 123-130). Science Press.",
+        "thesis": "Author, A. A. (Year). Title of dissertation [Doctoral dissertation/Master's thesis, Institution]. Repository.",
+        "thesis_example": "Wang, Q. (2021). Application of machine learning in time series prediction [Doctoral dissertation, Tsinghua University]."
+      }
+    },
+    "ieee": {
+      "name": "IEEE",
+      "name_en": "Institute of Electrical and Electronics Engineers",
+      "description": "IEEE参考文献格式",
+      "templates": {
+        "journal_article": "[1] A. A. Author, \"Title of paper,\" Title of Journal, vol. X, no. X, pp. X-X, Month Year.",
+        "journal_article_example": "[1] S. Zhang, S. Li, and W. Wang, \"Resource allocation based on optimization methods,\" J. Syst. Eng., vol. 35, no. 3, pp. 321-335, 2020.",
+        "book": "[1] A. A. Author, Title of Book. Publisher, Year.",
+        "book_example": "[1] M. Li, Mathematical Modeling Methods and Applications, 2nd ed. Higher Education Press, 2019.",
+        "conference": "[1] A. A. Author, \"Title of paper,\" in Name of Conference, Location, Year, pp. X-X.",
+        "conference_example": "[1] H. Zhang, \"Application of intelligent optimization algorithms in path planning,\" in Proc. Syst. Eng. Annu. Conf., Shanghai, China, 2020, pp. 123-130."
+      }
+    },
+    "mla": {
+      "name": "MLA",
+      "name_en": "Modern Language Association",
+      "description": "MLA参考文献格式",
+      "templates": {
+        "journal_article": "AuthorLast, First. \"Article Title.\" Journal Title, vol. #, no. #, Year, pp. #-#.",
+        "journal_article_example": "Zhang, Sinan, et al. \"Resource Allocation Based on Optimization Methods.\" Journal of Systems Engineering, vol. 35, no. 3, 2020, pp. 321-335.",
+        "book": "AuthorLast, First. Book Title. Publisher, Year.",
+        "book_example": "Li, Ming. Mathematical Modeling Methods and Applications. Higher Education Press, 2019."
+      }
+    }
+  },
+  "common_rules": {
+    "author_format": {
+      "one_author": "作者姓名",
+      "two_authors": "作者1, 作者2",
+      "three_plus_authors": "作者1, 作者2, 作者3（等）或 作者1, 等."
+    },
+    "title_format": {
+      "journal_article": "题名后加[J]",
+      "book": "书名后加[M]",
+      "conference": "题名后加[C]",
+      "dissertation": "题名后加[D]",
+      "patent": "题名后加[P]",
+      "online_resource": "题名后加[EB/OL]"
+    },
+    "punctuation": {
+      "separator": ".",
+      "between_authors": ", ",
+      "between_title_and_source": ". ",
+      "between_volume_and_issue": "(",
+      "between_issue_and_pages": ")",
+      "before_pages": ": "
+    }
+  },
+  "in_text_citation": {
+    "gbt7714": {
+      "numeric": "采用顺序编码制，用[1]、[2]等表示",
+      "example": "文献[1]提出了...方法"
+    },
+    "apa": {
+      "author_year": "采用作者-年份制，(Author, Year)或Author(Year)",
+      "example": "(Zhang, 2020) 或 Zhang (2020) 提出了...方法"
+    },
+    "ieee": {
+      "numeric": "采用顺序编码制，用[1]、[2]等表示",
+      "example": "As shown in [1], ..."
+    }
+  }
+}

@@ -1,0 +1,562 @@
+{
+  "optimization": {
+    "name": "优化类",
+    "terms": [
+      {
+        "term": "目标函数",
+        "en": "objective function",
+        "definition": "需要最大化或最小化的数学表达式"
+      },
+      {
+        "term": "约束条件",
+        "en": "constraints",
+        "definition": "限制变量取值的条件"
+      },
+      {
+        "term": "线性规划",
+        "en": "linear programming",
+        "definition": "目标函数和约束条件均为线性的优化问题"
+      },
+      {
+        "term": "整数规划",
+        "en": "integer programming",
+        "definition": "决策变量取整数值的规划问题"
+      },
+      {
+        "term": "非线性规划",
+        "en": "nonlinear programming",
+        "definition": "目标函数或约束条件含有非线性关系的优化问题"
+      },
+      {
+        "term": "动态规划",
+        "en": "dynamic programming",
+        "definition": "将多阶段决策问题分解为一系列单阶段问题的优化方法"
+      },
+      {
+        "term": "凸优化",
+        "en": "convex optimization",
+        "definition": "目标函数凸，约束集凸的优化问题"
+      },
+      {
+        "term": "灵敏度分析",
+        "en": "sensitivity analysis",
+        "definition": "分析参数变化对最优解影响程度的方法"
+      },
+      {
+        "term": "对偶理论",
+        "en": "duality theory",
+        "definition": "研究原问题与对偶问题关系的理论"
+      },
+      {
+        "term": "单纯形法",
+        "en": "simplex method",
+        "definition": "求解线性规划问题的经典算法"
+      },
+      {
+        "term": "分支定界法",
+        "en": "branch and bound",
+        "definition": "求解整数规划问题的算法框架"
+      },
+      {
+        "term": "拉格朗日松弛",
+        "en": "Lagrangian relaxation",
+        "definition": "将约束条件吸收到目标函数中的技术"
+      }
+    ]
+  },
+  "prediction": {
+    "name": "预测类",
+    "terms": [
+      {
+        "term": "时间序列",
+        "en": "time series",
+        "definition": "按时间顺序排列的数据序列"
+      },
+      {
+        "term": "趋势分析",
+        "en": "trend analysis",
+        "definition": "识别数据长期变化趋势的方法"
+      },
+      {
+        "term": "季节性",
+        "en": "seasonality",
+        "definition": "数据随季节周期性变化的特性"
+      },
+      {
+        "term": "自回归",
+        "en": "autoregressive",
+        "definition": "利用自身历史数据进行预测的模型"
+      },
+      {
+        "term": "滑动平均",
+        "en": "moving average",
+        "definition": "用最近若干期数据的平均数进行预测的方法"
+      },
+      {
+        "term": "差分",
+        "en": "difference",
+        "definition": "相邻观测值相减的操作，用于平稳化序列"
+      },
+      {
+        "term": "白噪声",
+        "en": "white noise",
+        "definition": "均值为零、方差恒定、互不相关的随机序列"
+      },
+      {
+        "term": "Ljung-Box检验",
+        "en": "Ljung-Box test",
+        "definition": "检验时间序列是否为白噪声的统计方法"
+      },
+      {
+        "term": "ADF检验",
+        "en": "Augmented Dickey-Fuller test",
+        "definition": "检验序列是否存在单位根的方法"
+      },
+      {
+        "term": "灰色预测",
+        "en": "grey prediction",
+        "definition": "基于灰色系统理论的小样本预测方法"
+      },
+      {
+        "term": "神经网络预测",
+        "en": "neural network prediction",
+        "definition": "利用神经网络模型进行预测的方法"
+      },
+      {
+        "term": "组合预测",
+        "en": "combined forecasting",
+        "definition": "将多种预测方法加权组合的预测策略"
+      }
+    ]
+  },
+  "statistics": {
+    "name": "统计类",
+    "terms": [
+      {
+        "term": "回归分析",
+        "en": "regression analysis",
+        "definition": "研究变量之间相关关系的统计方法"
+      },
+      {
+        "term": "相关系数",
+        "en": "correlation coefficient",
+        "definition": "衡量两个变量线性相关程度的指标"
+      },
+      {
+        "term": "决定系数",
+        "en": "coefficient of determination",
+        "definition": "衡量回归模型拟合优度的指标"
+      },
+      {
+        "term": "方差分析",
+        "en": "analysis of variance (ANOVA)",
+        "definition": "检验多组样本均值差异显著性的方法"
+      },
+      {
+        "term": "主成分分析",
+        "en": "principal component analysis (PCA)",
+        "definition": "将多个变量降维成少数综合变量的方法"
+      },
+      {
+        "term": "因子分析",
+        "en": "factor analysis",
+        "definition": "探索变量潜在因子的统计方法"
+      },
+      {
+        "term": "聚类分析",
+        "en": "cluster analysis",
+        "definition": "将样本或变量分类的多元统计方法"
+      },
+      {
+        "term": "判别分析",
+        "en": "discriminant analysis",
+        "definition": "根据已知类别建立判别规则进行分类的方法"
+      },
+      {
+        "term": "假设检验",
+        "en": "hypothesis testing",
+        "definition": "利用样本数据检验总体假设的方法"
+      },
+      {
+        "term": "置信区间",
+        "en": "confidence interval",
+        "definition": "以一定概率包含未知参数取值范围的区间"
+      },
+      {
+        "term": "贝叶斯统计",
+        "en": "Bayesian statistics",
+        "definition": "基于贝叶斯定理的统计推断方法"
+      },
+      {
+        "term": "马尔可夫链",
+        "en": "Markov chain",
+        "definition": "具有无后效性的随机过程"
+      }
+    ]
+  },
+  "evaluation": {
+    "name": "评价类",
+    "terms": [
+      {
+        "term": "层次分析法",
+        "en": "Analytic Hierarchy Process (AHP)",
+        "definition": "定性与定量结合的多准则决策方法"
+      },
+      {
+        "term": "模糊评价",
+        "en": "fuzzy evaluation",
+        "definition": "基于模糊数学的综合评价方法"
+      },
+      {
+        "term": "TOPSIS法",
+        "en": "TOPSIS method",
+        "definition": "基于逼近理想解的多指标决策方法"
+      },
+      {
+        "term": "熵权法",
+        "en": "entropy weight method",
+        "definition": "根据指标信息熵确定权重的方法"
+      },
+      {
+        "term": "CRITIC法",
+        "en": "CRITIC method",
+        "definition": "考虑指标对比强度和冲突性的客观赋权法"
+      },
+      {
+        "term": "灰色关联度",
+        "en": "grey relational degree",
+        "definition": "衡量序列之间关联程度的方法"
+      },
+      {
+        "term": "数据包络分析",
+        "en": "Data Envelopment Analysis (DEA)",
+        "definition": "评价多投入多产出决策单元相对效率的方法"
+      },
+      {
+        "term": "专家评分法",
+        "en": "expert scoring method",
+        "definition": "依靠专家经验进行主观评价的方法"
+      },
+      {
+        "term": "加权平均",
+        "en": "weighted average",
+        "definition": "考虑权重因素的加权求和"
+      },
+      {
+        "term": "隶属度",
+        "en": "membership degree",
+        "definition": "模糊集合中元素属于集合的程度"
+      }
+    ]
+  },
+  "graph_theory": {
+    "name": "图论类",
+    "terms": [
+      {
+        "term": "最短路径",
+        "en": "shortest path",
+        "definition": "图中两顶点之间路径长度最小的路径"
+      },
+      {
+        "term": "最小生成树",
+        "en": "minimum spanning tree",
+        "definition": "包含所有顶点且边权重之和最小的树"
+      },
+      {
+        "term": "最大流",
+        "en": "maximum flow",
+        "definition": "网络中从源点到汇点的最大可行流量"
+      },
+      {
+        "term": "最小割",
+        "en": "minimum cut",
+        "definition": "将网络分为两部分且容量最小的割集"
+      },
+      {
+        "term": "欧拉路径",
+        "en": "Eulerian path",
+        "definition": "经过每条边恰好一次的路径"
+      },
+      {
+        "term": "哈密顿路径",
+        "en": "Hamiltonian path",
+        "definition": "经过每个顶点恰好一次的路径"
+      },
+      {
+        "term": "匹配",
+        "en": "matching",
+        "definition": "图中两两不含公共端点的边集合"
+      },
+      {
+        "term": "顶点覆盖",
+        "en": "vertex cover",
+        "definition": "覆盖所有边的顶点集合"
+      },
+      {
+        "term": "独立集",
+        "en": "independent set",
+        "definition": "两两不相邻的顶点集合"
+      },
+      {
+        "term": "着色问题",
+        "en": "graph coloring",
+        "definition": "给图的顶点分配颜色使相邻顶点颜色不同"
+      }
+    ]
+  },
+  "differential_equations": {
+    "name": "微分方程类",
+    "terms": [
+      {
+        "term": "常微分方程",
+        "en": "ordinary differential equation (ODE)",
+        "definition": "只涉及一个自变量及其导数的方程"
+      },
+      {
+        "term": "偏微分方程",
+        "en": "partial differential equation (PDE)",
+        "definition": "涉及多个自变量偏导数的方程"
+      },
+      {
+        "term": "初值问题",
+        "en": "initial value problem",
+        "definition": "给定初始条件求微分方程解的问题"
+      },
+      {
+        "term": "边值问题",
+        "en": "boundary value problem",
+        "definition": "给定边界条件求微分方程解的问题"
+      },
+      {
+        "term": "稳定性",
+        "en": "stability",
+        "definition": "扰动下解的长期行为特性"
+      },
+      {
+        "term": "平衡点",
+        "en": "equilibrium point",
+        "definition": "导数为零的点"
+      },
+      {
+        "term": "相平面",
+        "en": "phase plane",
+        "definition": "二维系统状态变量的坐标平面"
+      },
+      {
+        "term": "分支理论",
+        "en": "bifurcation theory",
+        "definition": "研究系统参数变化时解的性质突变"
+      },
+      {
+        "term": "孤立波",
+        "en": "soliton",
+        "definition": "在介质中传播时保持形状和速度不变的波"
+      },
+      {
+        "term": "混沌",
+        "en": "chaos",
+        "definition": "对初始条件敏感依赖的确定性系统的行为"
+      }
+    ]
+  },
+  "queueing_theory": {
+    "name": "排队论类",
+    "terms": [
+      {
+        "term": "到达率",
+        "en": "arrival rate",
+        "definition": "单位时间内到达的顾客数期望值"
+      },
+      {
+        "term": "服务率",
+        "en": "service rate",
+        "definition": "单位时间内完成服务的顾客数期望值"
+      },
+      {
+        "term": "队长",
+        "en": "queue length",
+        "definition": "系统中等待服务的顾客数"
+      },
+      {
+        "term": "等待时间",
+        "en": "waiting time",
+        "definition": "顾客在队列中等待的时间"
+      },
+      {
+        "term": "利用率",
+        "en": "utilization rate",
+        "definition": "服务台忙的概率"
+      },
+      {
+        "term": "阻塞概率",
+        "en": "blocking probability",
+        "definition": "系统满负荷时新顾客被拒绝的概率"
+      },
+      {
+        "term": "Little公式",
+        "en": "Little's law",
+        "definition": "L = λW，系统中平均人数等于到达率乘平均停留时间"
+      }
+    ]
+  },
+  "game_theory": {
+    "name": "博弈论类",
+    "terms": [
+      {
+        "term": "策略",
+        "en": "strategy",
+        "definition": "博弈中参与者可选择的行动方案"
+      },
+      {
+        "term": "支付函数",
+        "en": "payoff function",
+        "definition": "描述参与者收益的函数"
+      },
+      {
+        "term": "纳什均衡",
+        "en": "Nash equilibrium",
+        "definition": "任何玩家单方面改变策略都不能获得更好收益的状态"
+      },
+      {
+        "term": "占优策略",
+        "en": "dominant strategy",
+        "definition": "无论其他玩家如何选择都能获得最优结果的策略"
+      },
+      {
+        "term": "囚徒困境",
+        "en": "prisoner's dilemma",
+        "definition": "个人理性与集体理性冲突的经典博弈模型"
+      },
+      {
+        "term": "零和博弈",
+        "en": "zero-sum game",
+        "definition": "一方所得必为另一方所失的博弈"
+      },
+      {
+        "term": "合作博弈",
+        "en": "cooperative game",
+        "definition": "玩家可以达成有约束力协议的博弈"
+      },
+      {
+        "term": " Shapley值",
+        "en": "Shapley value",
+        "definition": "合作博弈中收益分配的公平准则"
+      }
+    ]
+  },
+  "neural_network": {
+    "name": "神经网络类",
+    "terms": [
+      {
+        "term": "神经元",
+        "en": "neuron",
+        "definition": "神经网络的基本计算单元"
+      },
+      {
+        "term": "激活函数",
+        "en": "activation function",
+        "definition": "引入非线性因素的函数"
+      },
+      {
+        "term": "权重",
+        "en": "weight",
+        "definition": "神经元之间连接的强度参数"
+      },
+      {
+        "term": "偏置",
+        "en": "bias",
+        "definition": "调整神经元激活阈值的参数"
+      },
+      {
+        "term": "前向传播",
+        "en": "forward propagation",
+        "definition": "输入数据从输入层向输出层传递的过程"
+      },
+      {
+        "term": "反向传播",
+        "en": "backpropagation",
+        "definition": "根据损失函数梯度调整权重的算法"
+      },
+      {
+        "term": "损失函数",
+        "en": "loss function",
+        "definition": "衡量模型预测与真实值差距的函数"
+      },
+      {
+        "term": "梯度下降",
+        "en": "gradient descent",
+        "definition": "沿损失函数负梯度方向更新参数的方法"
+      },
+      {
+        "term": "过拟合",
+        "en": "overfitting",
+        "definition": "模型对训练数据拟合过好而泛化能力差"
+      },
+      {
+        "term": "欠拟合",
+        "en": "underfitting",
+        "definition": "模型对训练数据拟合不足"
+      },
+      {
+        "term": "正则化",
+        "en": "regularization",
+        "definition": "防止过拟合的技术"
+      },
+      {
+        "term": "卷积神经网络",
+        "en": "Convolutional Neural Network (CNN)",
+        "definition": "具有卷积层的前馈神经网络"
+      },
+      {
+        "term": "循环神经网络",
+        "en": "Recurrent Neural Network (RNN)",
+        "definition": "具有循环连接的网络结构"
+      }
+    ]
+  },
+  "metaheuristics": {
+    "name": "元启发式算法类",
+    "terms": [
+      {
+        "term": "遗传算法",
+        "en": "Genetic Algorithm (GA)",
+        "definition": "模拟自然选择和遗传机制的优化算法"
+      },
+      {
+        "term": "粒子群优化",
+        "en": "Particle Swarm Optimization (PSO)",
+        "definition": "模拟鸟群觅食行为的优化算法"
+      },
+      {
+        "term": "蚁群算法",
+        "en": "Ant Colony Optimization (ACO)",
+        "definition": "模拟蚂蚁觅食行为的优化算法"
+      },
+      {
+        "term": "模拟退火",
+        "en": "Simulated Annealing (SA)",
+        "definition": "模拟金属退火过程的全局优化算法"
+      },
+      {
+        "term": "禁忌搜索",
+        "en": "Tabu Search (TS)",
+        "definition": "利用记忆机制避免搜索循环的启发式算法"
+      },
+      {
+        "term": "免疫算法",
+        "en": "Immune Algorithm (IA)",
+        "definition": "模拟生物免疫系统的优化算法"
+      },
+      {
+        "term": "差分进化",
+        "en": "Differential Evolution (DE)",
+        "definition": "基于个体差异进化的全局优化算法"
+      },
+      {
+        "term": "人工蜂群算法",
+        "en": "Artificial Bee Colony (ABC)",
+        "definition": "模拟蜜蜂采蜜行为的优化算法"
+      }
+    ]
+  }
+}
